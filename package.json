@@ -1,0 +1,20 @@
+{
+  "name": "the-mongo-db",
+  "version": "1.0.0",
+  "description": "Required libraries for the learning_mongodb class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rproenza86/the-mongo-db.git"
+  },
+  "author": "Raul Proenza",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "18.3.1",
+    "mongodb": "^2.2.22"
+  }
+}
