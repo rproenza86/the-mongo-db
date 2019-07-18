@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
 const url =
-    'mongodb://rproenza:gaxhi4-cotbuh-hucnIj@cluster0-shard-00-00-6c54t.mongodb.net:27017/mongo_training?ssl=true&authSource=admin';
+    'mongodb://<USER>:<PASSWORD>j@<MONGODB_ATLAS_SERVER_IP>:27017/mongo_training?ssl=true&authSource=admin';
 
 const server = Hapi.server({
     port: 3000,
